@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uwI-hs-fup">
-                                <rect key="frame" x="183" y="433" width="49" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uwI-hs-fup">
+                                <rect key="frame" x="182" y="433" width="49" height="30"/>
                                 <color key="backgroundColor" red="0.45169038667863837" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Record"/>
                             </button>
@@ -25,8 +25,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="uwI-hs-fup" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0EO-wG-988"/>
-                            <constraint firstItem="uwI-hs-fup" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dAb-jR-gEG"/>
+                            <constraint firstItem="uwI-hs-fup" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="08L-7L-1Jk"/>
+                            <constraint firstItem="uwI-hs-fup" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="ubz-Wj-ujZ"/>
                         </constraints>
                     </view>
                 </viewController>
